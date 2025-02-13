@@ -1,0 +1,34 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>root</groupId>
+    <version>1.0</version>
+    <artifactId>project</artifactId>
+    <packaging>pom</packaging>
+    <name>project</name>
+    <modules>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.4.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <dependencies>
+        <!-- 内部已经包含spring-boot-starter-web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+    </build>
+
+    <dependencyManagement>
+    </dependencyManagement>
+
+    <distributionManagement>
+    </distributionManagement>
+</project>
